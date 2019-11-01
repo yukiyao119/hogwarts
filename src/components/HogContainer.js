@@ -8,7 +8,7 @@ class HogContainer extends React.Component {
       <ul className="ui grid container">
         {this.props.hogs.map(hog =>
           <li className="ui eight wide column" key={hog.name}>
-            <HogTile 
+            return<HogTile 
               name={hog.name} 
               image={hog.image}
               weight={hog.weight}
